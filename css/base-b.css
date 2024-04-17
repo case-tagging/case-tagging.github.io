@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+
+.main-header {
+	height: 75px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+}
+.main-body {
+	margin: 0 20px;
+	padding: 5px 20px;
+}
+.main-footer {
+	margin-top: auto;
+	padding-bottom: 0.8em;
+}
+
+
+.site-branding.container {
+	max-height: calc(100%-10px);
+	width: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px 8px;
+	gap: 5px;
+}
+.page-logo {
+	max-height: 40px;
+}
+.page-title {
+	font-size: 2rem;
+	font-weight: 900;
+}
+.page-attribution {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+.page-version {
+	font-family: "Courier New", monospace;
+	font-weight: 900;
+	font-size: 0.7em;
+}
+.page-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
