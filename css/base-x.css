@@ -1,0 +1,25 @@
+.site-branding.container.x {
+/* 
+	display: grid;
+	grid-template-columns: clamp(30px, 25%, 70px) 1fr;
+	gap: 5px;
+	align-items: center;
+	 */
+	/* 	
+	width: 40%;
+	margin: 10px auto;
+	 */
+	/*
+	margin-left: 3%;
+	*/
+	/*
+	 display: in-line grid;
+	padding: 5px 0px 5px 7px;
+	*/
+	/*
+	background-color: #00B0FF;
+	color: #1A237E;
+	text-shadow: 0 0 3px #80D8FF;
+	border-radius: 7px;
+	*/
+}
